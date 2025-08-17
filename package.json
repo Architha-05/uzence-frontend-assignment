@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest run --coverage",
     "test:ui": "vitest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "dependencies": {
     "clsx": "^2.1.1",
