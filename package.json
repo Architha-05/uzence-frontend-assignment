@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "npx vite build",
   "dev": "vite",
+  "build": "node node_modules/vite/bin/vite.js build",
   "preview": "vite preview",
-    "lint": "eslint .",
-    "test": "vitest run --coverage",
-    "test:ui": "vitest",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  },
+  "lint": "eslint .",
+  "test": "vitest run --coverage",
+  "test:ui": "vitest",
+  "storybook": "storybook dev -p 6006",
+  "build-storybook": "storybook build"
+},
   "dependencies": {
     "clsx": "^2.1.1",
     "react": "^18.3.1",
