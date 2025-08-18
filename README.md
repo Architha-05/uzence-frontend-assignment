@@ -2,6 +2,8 @@
 
 React + TypeScript + TailwindCSS + Storybook implementation of two reusable UI components: **InputField** and **DataTable**, with a small demo app, stories, and basic tests.
 
+Live link : https://uzence-frontend-assignment-oi4j-kr3sa1bra.vercel.app/
+
 ## 📦 Tech Stack
 - React 18 + TypeScript (Vite)
 - TailwindCSS
